@@ -4,6 +4,9 @@
 
 @section('content')
     <h1 class="text-center display-6">Tin tức </h1>
+
+    <a class="btn btn-primary mb-3" href="/home/create">Thêm bản tin</a>
+
     <table class="table table-bordered table-hover">
         <tr class="table-active text-center ">
             <th>ID</th>
