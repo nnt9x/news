@@ -28,7 +28,7 @@
                         @csrf
                         <button class="btn btn-sm btn-danger">Xoá</button>
                     </form>
-                    <a class="btn btn-sm btn-warning">
+                    <a class="btn btn-sm btn-warning" href="/home/news/{{$news->id}}/edit">
                         Sửa
                     </a>
                 </td>

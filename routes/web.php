@@ -26,3 +26,7 @@ Route::delete('/home/news/{id}', [\App\Http\Controllers\NewsController::class, '
 Route::post('/home/create', [\App\Http\Controllers\NewsController::class, 'createNews']);
 
 Route::get('/home/create', [\App\Http\Controllers\NewsController::class, 'viewCreateNewsPage']);
+
+Route::get('/home/news/{id}/edit', [\App\Http\Controllers\NewsController::class, 'viewEditNewsById']);
+
+Route::post('/home/news/{id}/edit', [\App\Http\Controllers\NewsController::class, 'editNewsById']);
